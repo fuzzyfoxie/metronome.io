@@ -1,0 +1,22 @@
+@import "./colors.less";
+
+html,
+body {
+	font-family: "Questrial", "Roboto", "Lato", sans-serif;
+
+	overflow: auto;
+
+	color: white;
+	background-color: @background-default;
+
+	height: 100%;
+}
+
+a {
+	transition: all 0.1s;
+
+	color: white;
+	&:hover {
+		color: @link-hover;
+	}
+}
